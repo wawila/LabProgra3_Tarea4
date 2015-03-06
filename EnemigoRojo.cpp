@@ -45,7 +45,7 @@ void EnemigoRojo::act()
         i = i * (-1);
     }
 
-    if(frame%400==0)
+    if(frame%300==0)
         atacando = true;
     else
         atacando = false;

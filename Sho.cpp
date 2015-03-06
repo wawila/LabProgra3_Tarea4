@@ -49,6 +49,8 @@ Sho::Sho(SDL_Renderer* renderer,list<Personaje*> *personajes, bool e)
     init(renderer,personajes);
 }
 
+int c = 1;
+
 void Sho::act()
 {
     const Uint8* currentKeyStates = SDL_GetKeyboardState(NULL);
@@ -70,23 +72,29 @@ void Sho::act()
         atacando = false;
     }
 
+     if(currentKeyStates[SDL_SCANCODE_LSHIFT])
+    {
+        c = 3;
+    } else
+        c = 1;
+
     if(currentKeyStates[SDL_SCANCODE_W]&& rect.y >= -50)
     {
-        rect.y--;
+        rect.y-= c;
     }
     else if(currentKeyStates[SDL_SCANCODE_S]&& rect.y <= 250)
     {
-        rect.y++;
+        rect.y+= c;
     }
 
     if(currentKeyStates[SDL_SCANCODE_D] && rect.x <= 850)
     {
-        rect.x++;
+        rect.x+= c;
         setAnimacion("walk_right");
     }
     else if(currentKeyStates[SDL_SCANCODE_A] && rect.x >= 10)
     {
-        rect.x--;
+        rect.x-= c;
         setAnimacion("walk_left");
     }
     else

@@ -725,25 +725,25 @@
 	<iostream>
 	<map>
 
-1425018795 source:/home/david/Documents/BeatEmUp-master/EnemigoAzul.cpp
+1425061027 source:/home/david/Documents/BeatEmUp-master/EnemigoAzul.cpp
 	"EnemigoAzul.h"
 
 1424994849 /home/david/Documents/BeatEmUp-master/EnemigoAzul.h
 	"Enemigo.h"
 
-1425018813 source:/home/david/Documents/BeatEmUp-master/EnemigoRojo.cpp
+1425061027 source:/home/david/Documents/BeatEmUp-master/EnemigoRojo.cpp
 	"EnemigoRojo.h"
 
 1424994849 /home/david/Documents/BeatEmUp-master/EnemigoRojo.h
 	"Enemigo.h"
 
-1425018138 source:/home/david/Documents/BeatEmUp-master/EnemigoVerde.cpp
+1425061027 source:/home/david/Documents/BeatEmUp-master/EnemigoVerde.cpp
 	"EnemigoVerde.h"
 
 1424994849 /home/david/Documents/BeatEmUp-master/EnemigoVerde.h
 	"Enemigo.h"
 
-1425058434 source:/home/david/Documents/BeatEmUp-master/main.cpp
+1425661483 source:/home/david/Documents/BeatEmUp-master/main.cpp
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<iostream>
@@ -760,6 +760,6 @@
 1425053618 source:/home/david/Documents/BeatEmUp-master/Personaje.cpp
 	"Personaje.h"
 
-1425018888 source:/home/david/Documents/BeatEmUp-master/Sho.cpp
+1425060825 source:/home/david/Documents/BeatEmUp-master/Sho.cpp
 	"Sho.h"
 
